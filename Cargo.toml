@@ -1,0 +1,23 @@
+[package]
+name = "bert_nlp_example"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.82"
+burn = "0.12.1"
+candle-core = "0.4.1"
+candle-examples = "0.4.1"
+candle-nn = "0.4.1"
+candle-transformers = "0.4.1"
+clap = "4.5.4"
+hf-hub = "0.3.2"
+
+# Serialization
+serde = "1.0.197"
+serde_json = "1.0.115"
+tokenizers = "0.15.2"
+tracing-chrome = "0.7.2"
+tracing-subscriber = "0.3.18"
